@@ -56,36 +56,6 @@ Homepage
 Product Page
 Login Page
 
-🗂️ Struktur Proyek
-Copy
-digicam-sales/
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── images/
-│       └── products/
-│
-├── config/
-│   └── database.php
-│
-├── database/
-│   └── db_toko.sql
-│
-├── includes/
-│   ├── header.php
-│   ├── footer.php
-│   └── functions.php
-│
-├── pages/
-│   ├── index.php
-│   ├── product.php
-│   ├── login.php
-│   └── admin/
-│       ├── dashboard.php
-│       └── manage_products.php
-│
-└── README.md
 🔑 Akun Admin
 Username: admin
 
