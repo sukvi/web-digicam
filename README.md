@@ -1,4 +1,6 @@
-d# 📷 Digicam Sales Web Application
+Untuk Link Data base nya : https://drive.google.com/drive/folders/1hJRIdqEOC7ZzuRQYdKgQbOR7OWf4iZkI?hl=id
+
+# 📷 Digicam Sales Web Application
 
 Aplikasi web penjualan kamera digital (digicam) ini dibangun menggunakan PHP untuk backend dan CSS untuk styling. Aplikasi ini memungkinkan pengguna untuk melihat daftar kamera digital yang tersedia, melihat detail produk, dan melakukan login sebagai admin.
 
