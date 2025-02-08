@@ -1,55 +1,105 @@
-download aplikasi xammp
-upload database ke dalam localhost xammp
-database bisa di download di https://drive.google.com/drive/folders/1hJRIdqEOC7ZzuRQYdKgQbOR7OWf4iZkI?usp=drive_link
-selain database di google drive,terdapat akun admin
+d# 📷 Digicam Sales Web Application
 
+Aplikasi web penjualan kamera digital (digicam) ini dibangun menggunakan PHP untuk backend dan CSS untuk styling. Aplikasi ini memungkinkan pengguna untuk melihat daftar kamera digital yang tersedia, melihat detail produk, dan melakukan login sebagai admin.
 
+## 🚀 Fitur
 
-# Digicam Sales Web Application
+- **📋 Daftar Produk**: Menampilkan daftar kamera digital yang tersedia dengan detail seperti nama, harga, dan gambar.
+- **🔐 Login Admin**: Fitur login untuk admin agar dapat mengelola produk.
 
-![Digicam Sales](screenshot.png)
-
-Aplikasi web penjualan kamera digital (digicam) ini dibangun menggunakan PHP untuk backend dan CSS untuk styling. Aplikasi ini memungkinkan pengguna untuk melihat daftar kamera digital yang tersedia, menambahkan produk ke keranjang belanja, dan melakukan checkout.
-
-## Fitur
-
-- **Daftar Produk**: Menampilkan daftar kamera digital yang tersedia dengan detail seperti nama, harga, dan gambar.
-- **Keranjang Belanja**: Pengguna dapat menambahkan produk ke keranjang belanja dan mengelola item yang ada di dalamnya.
-- **Checkout**: Proses checkout sederhana untuk menyelesaikan pembelian.
-- **Responsive Design**: Desain yang responsif untuk tampilan yang optimal di berbagai perangkat.
-
-## Teknologi yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
 - **PHP**: Bahasa pemrograman server-side untuk menangani logika backend.
 - **CSS**: Untuk styling dan tata letak halaman web.
 - **HTML**: Untuk struktur dasar halaman web.
 - **MySQL**: Database untuk menyimpan informasi produk dan transaksi.
 
-Setup Database:
+## 📥 Instalasi
 
-Buat database baru di MySQL.
+1. **Download XAMPP**:
+   - Unduh dan instal XAMPP dari [situs resmi Apache Friends](https://www.apachefriends.org/index.html).
 
-Import file SQL yang ada di folder database/db_toko.sql ke database Anda.
+2. **Clone Repository**:
+   ```bash
+   git clone https://github.com/username/digicam-sales.git
+   cd digicam-sales
+Upload Database:
+
+Download database dari Google Drive.
+
+Buat database baru di MySQL melalui phpMyAdmin (biasanya di http://localhost/phpmyadmin).
+
+Import file SQL (db_toko.sql) ke database yang baru dibuat.
 
 Konfigurasi Koneksi Database:
 
 Buka file config/database.php dan sesuaikan dengan detail database Anda:
 
 php
+Copy
 <?php
-    $hostname = 'localhost';
-    $username = 'root';
-    $password = '';
-    $dbname = 'digicam';
+$hostname = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'digicam';
 
-    $conn = mysqli_connect($hostname, $username, $password, $dbname) or die ('Gagal Masuk');
-    ?>
+$conn = mysqli_connect($hostname, $username, $password, $dbname) or die ('Gagal Masuk');
+?>
 Jalankan Aplikasi:
 
 Letakkan folder proyek di direktori web server Anda (misalnya, htdocs untuk XAMPP).
 
 Buka browser dan akses http://localhost/digicam-sales.
-Kontak
+
+🖼️ Screenshot
+Homepage
+Product Page
+Login Page
+
+🗂️ Struktur Proyek
+Copy
+digicam-sales/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+│       └── products/
+│
+├── config/
+│   └── database.php
+│
+├── database/
+│   └── db_toko.sql
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+│
+├── pages/
+│   ├── index.php
+│   ├── product.php
+│   ├── login.php
+│   └── admin/
+│       ├── dashboard.php
+│       └── manage_products.php
+│
+└── README.md
+🔑 Akun Admin
+Username: admin
+
+Password: admin123
+
+🤝 Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository dan buat pull request. Kami sangat menghargai kontribusi Anda!
+
+📜 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+📞 Kontak
 Jika Anda memiliki pertanyaan atau masukan, silakan hubungi:
-Email: sukvihaccker@gmail.com
-GitHub: sukvi
+
+Email: 📧 sukvihaccker@gmail.com
+
+GitHub: 🐱 sukvi
