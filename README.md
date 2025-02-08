@@ -49,7 +49,7 @@ Jalankan Aplikasi:
 
 Letakkan folder proyek di direktori web server Anda (misalnya, htdocs untuk XAMPP).
 
-Buka browser dan akses http://localhost/digicam-sales.
+Buka browser dan akses http://localhost/(sesuaikan).
 
 🖼️ Screenshot
 Homepage
