@@ -57,9 +57,9 @@ Product Page
 Login Page
 
 🔑 Akun Admin
-Username: admin
+Username: sukvi
 
-Password: admin123
+Password: 123
 
 🤝 Kontribusi
 Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository dan buat pull request. Kami sangat menghargai kontribusi Anda!
